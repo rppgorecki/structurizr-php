@@ -48,14 +48,14 @@ abstract class StaticStructureElement extends Element
     }
 
     public function usesComponent(
-        Component $container,
+        Component $component,
         string $description = 'Uses',
         string $technology = null,
         InteractionStyle $interactionStyle = null
     ) : Relationship {
         return $this->getModel()->addRelationship(
             $this,
-            $container,
+            $component,
             $description,
             $technology,
             $interactionStyle
