@@ -52,7 +52,7 @@ final class ComponentView extends StaticView
             $viewSet
         );
 
-        $view->externalContainerBoundariesVisible = $viewData['externalContainersBoundariesVisible'];
+        $view->externalContainerBoundariesVisible = $viewData['externalContainerBoundariesVisible'];
 
         parent::hydrateView($view, $viewData);
 
