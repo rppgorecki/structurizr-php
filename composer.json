@@ -1,5 +1,5 @@
 {
-    "name": "structurizr-php/structurizr-php",
+    "name": "rppgorecki/structurizr-php",
     "description": "Structurizr for PHP",
     "type": "library",
     "require": {
